@@ -73,7 +73,7 @@ def markAttendance(name):
 # imgElon = face_recognition.load_image_file('ImageBasics/Elon musk.jpg')  # loading image
 # imgElon = cv2.cvtColor(imgElon,cv2.COLOR_BGR2RGB)          # Converting BGR to RGB
 
-imgTest = face_recognition.load_image_file('vaibhav.jpg')
+imgTest = images[0]
 imgTest = cv2.cvtColor(imgTest,cv2.COLOR_BGR2RGB)
 faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 gray = cv2.cvtColor(imgTest, cv2.COLOR_BGR2GRAY)
